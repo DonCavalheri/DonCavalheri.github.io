@@ -1,200 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <img class="foto" src="https://img.elo7.com.br/product/zoom/310701F/poster-tony-montana-scarface-lona-90x60cm-modelo-05-lona.jpg" alt="Foto">
-        <div class="dados">
-            <div class="pessoa">
-                <h1>Luigi Cavalieri</h1>
-                <span>30</span>
+    <div class="container">
+        <header>
+            <div class="foto-wrapper">
+                <img class="foto" src="agent.jpg" alt="Foto">
             </div>
-            <div class="profissao">Desenvolvedora front-end em formação</div>
-        </div>
-    </header>
-    <main>
-        <div class="coluna-menor">
-            <div class="experiencias">
-                <h2>Experiências profissionais</h2>
-                <div class="linha"></div>
-                <ul>
-                    <li>
-                        <h3><b>Tech Leader</b> @Jusbrasil</h3>
-                        <div class="periodo">De Março de 2018 a Julho de 2020</div>
-                    </li>
-                    <li>
-                        <h3><b>Desenvolvedor front-end</b> @Cubos Tecnologia</h3>
-                        <div class="periodo">De Março de 2016 a Março de 2018</div>
-                    </li>
-                    <li>
-                        <h3><b>CTO</b> @Cubos Academy</h3>
-                        <div class="periodo">Desde Agosto de 2020</div>
-                    </li>
-                </ul>
+            <div class="dados">
+                <div class="pessoa">
+                    <h1>Enzo Cavalheri</h1>
+                    <span>16</span>
+                </div>
+                <div class="profissao">Olá, sou Cavalheri! Estudante iniciante na programação e um amante das tecnologias</div>
             </div>
-            <div class="formacao">
-                <h2>Formação</h2>
-                <div class="linha"></div>
-                <ul>
-                    <li>
-                        <h3><b>Engenharia Elétrica</b> @UFBA</h3>
-                        <div class="periodo">De Março de 2018 a Dezembro de 2020</div>
-                    </li>
-                    <li>
-                        <h3><b>Imersão Programação do Zero</b> @Cubos Academy</h3>
-                        <div class="periodo">De Julho de 2020 a Dezembro de 2020</div>
-                    </li>
-                </ul>
+        </header>
+        <main>
+            <div class="coluna-esquerda">
+                <div class="formacao">
+                    <h2>Formação</h2>
+                    <div class="linha"></div>
+                    <ul>
+                        <li>
+                            <h3><b>Desenvolvimento de Sistemas</b></h3>
+                            <div class="periodo">Etec Rodrigues de Abreu</div>
+                        </li>
+                        <li>
+                            <h3><b>Ensino fundamental</b></h3>
+                            <div class="periodo">Colegio Gbi</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="habilidades">
+                    <h2>Habilidades</h2>
+                    <div class="linha"></div>
+                    <ul>
+                        <li class="habilidade">
+                            <h3>Front</h3>
+                            <div class="barra-progresso">
+                                <div class="barra" style="width: 20%;"></div>
+                            </div>
+                        </li>
+                        <li class="habilidade">
+                            <h3>Back</h3>
+                            <div class="barra-progresso">
+                                <div class="barra" style="width: 15%;"></div>
+                            </div>
+                        </li>
+                        <li class="habilidade">
+                            <h3>Soft skills</h3>
+                            <div class="barra-progresso">
+                                <div class="barra" style="width: 50%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="coluna-maior">
-            <div class="habilidades">
-                <h2>Habilidades</h2>
-                <ul>
-                    <li class="habilidade">
-                        <h3>Front</h3>
-                        <ul>
-                            <li>
-                                <div class="nome">HTML</div>
-                                <div class="progresso">
-                                    <div class="barra"></div>
-                                    <div class="barra"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">CSS</div>
-                                <div class="progresso">
-                                    <div class="barra"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">JavaScript</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">React</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="habilidade">
-                        <h3>Back</h3>
-                        <ul>
-                            <li>
-                                <div class="nome">Node.js</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">PostgreSQL</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">JWT</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">REST</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="habilidade">
-                        <h3>Soft skills</h3>
-                        <ul>
-                            <li>
-                                <div class="nome">Comunicação</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">Trabalho em Equipe</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">Gerenciamento de Tempo</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="nome">Gestão de Conflitos</div>
-                                <div class="progresso">
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                    <div class="barra incompleto"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="coluna-direita">
+                <div class="sobre-mim">
+                    <h2>Sobre Mim</h2>
+                    <div class="linha2"></div>
+                    <p>Olá! Sou Enzo Cavalheri, um estudante apaixonado por tecnologia e programação.<br> Estou constantemente
+                        explorando novas tecnologias e aprimorando minhas habilidades<br> para me tornar um desenvolvedor
+                        back-end. Adoro desafios e estou sempre em busca<br> de novas oportunidades para aprender e crescer.</p>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </div>
 </body>
+
 </html>
